@@ -1,5 +1,6 @@
 # HEB_google_maps_reviews
 Python workflow to get common words and phrases from negative H-E-B store reviews
+
 ------------------------------
 
 ### Necessary Packages
@@ -8,17 +9,21 @@ import nltk
 from collections import Counter
 from nltk.corpus import stopwords
 from nltk.collocations import *
+
+.csv files obtained from Outscraper tool, but can be done entirely in python if necessary. The Outscraper tool was used for the sake of saving time. See the link below.
+https://app.outscraper.com/googleReviews
+
 ------------------------------
 
 # Define a function for generating cleanesed data frame from google maps review .csv
-.csv files obtained from Outscraper tool, but can be done entirely in python if necessary. The Outscraper tool was used for the sake of saving time. See the link below.
-https://app.outscraper.com/googleReviews
 Function applied to Dripping Springs and Waxahachie H-E-B stores
+
 ------------------------------
 
 # Define function for generating common words list.
 This function will generate a list of the most common words (ommiting stopwords) with a word count. 
 Apply this function to the dataframes for each H-E-B store.
+
 ------------------------------
 
 # Summary & Conclusions

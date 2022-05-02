@@ -12,6 +12,7 @@ from nltk.collocations import *
 
 .csv files obtained from Outscraper tool, but can be done entirely in python if necessary. The Outscraper tool was used for the sake of saving time. See the link below.
 https://app.outscraper.com/googleReviews
+For the purpose of this project, I pulled max 500 reviews with a rating of 2 stars or less.
 
 ------------------------------
 
